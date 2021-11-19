@@ -29,7 +29,7 @@ if driver.current_url.find('login') < 0:
     Navigator(driver)
     sleep(delay)
     
-    print('Checking if phone is blocked')
+    print('Checking if a device is blocked')
     result = unblockIP(driver)
     print(result)
     
