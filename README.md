@@ -25,10 +25,10 @@ This example uses [Chromium drivers](https://sites.google.com/chromium.org/drive
 
 If another driver is used, minor adjustments would be required in the code. I could allow a setting in the ENV file to allow for browser agnosticism.
 
-**Webdriver easy examples**
-Anaconda/Conda - Install "chromedriver-binary" package
-Debian - "sudo apt-get install chromium-chromedriver" [source](https://ivanderevianko.com/2020/01/selenium-chromedriver-for-raspberrypi)
-[MAC Instructions](https://www.swtestacademy.com/install-chrome-driver-on-mac/) - good details and background
+**Easy examples**
+* Anaconda/Conda - Install "chromedriver-binary" package
+* Debian ([source](https://ivanderevianko.com/2020/01/selenium-chromedriver-for-raspberrypi)) - "sudo apt-get install chromium-chromedriver" 
+* [MAC Instructions](https://www.swtestacademy.com/install-chrome-driver-on-mac/) - good details and background
 
 ### Adjustments
 As mentioned within the code's comments, I do not yet have a good grasp of **Waits** in Selenium. Therefore I use a bunch of time.sleep(x) commands to ensure pages load before moving to a next step. These times may need to be adjusted for a particular machine.
