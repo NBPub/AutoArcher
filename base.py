@@ -14,7 +14,7 @@ from os import environ
 
 # Load data from ".env", default values provided if environmental variables not set.
 load_dotenv()
-page = environ.get('router_add','http://192.168.1.1')
+page = environ.get('router_address','http://192.168.1.1')
 password = environ.get("router_pass",'password')
 IPs = environ.get("IPs",'0').split(',')
 Devices = environ.get("Devices",'?').split(',')
