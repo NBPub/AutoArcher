@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "routerer"
+name = "autoarcher"
 version = "0.1.0"
 description = "Unblock IPs from Archer router"
 authors = ["NBPub"]
