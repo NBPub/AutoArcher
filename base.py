@@ -6,6 +6,7 @@ Created on Tue Nov 16 14:42:22 2021
 """
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from time import sleep
