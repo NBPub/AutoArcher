@@ -5,17 +5,31 @@ Python-Selenium example(s) to work with Archer router pages. Code can be used as
 ## Personal Motivation
 With my current settings, local Apple devices are occasionally added to the block list (and stop receiving WiFi). I made this to automate removal of these devices.
 
-
 ## General Motivation
 * Share Selenium tricks I picked up in this process. I will go back and find+list links of blog posts, etc . . . that helped me.
 * Provide examples for working with Archer router pages
 * Get feedback
 
+## Installation
+*[Python 3.5 or later](https://wiki.python.org/moin/BeginnersGuide/Download) is required for Poetry.* 
+
+See [Poetry Docs](https://python-poetry.org/docs/) for more details.
+
+1. Install Poetry, see above link for guidance.
+2. [Download](https://github.com/NBPub/AutoArcher/archive/refs/heads/main.zip) AutoArcher code, see green **Code** button for more options.
+3. Extract contents to directory of choice. READEME.md, LICENSE, and .gitignore files are not necessary.
+4. Modify "example.env" as [described](https://github.com/NBPub/AutoArcher#env-file). Rename to ".env"
+5. Install webdrivers for Selenium. See [below](https://github.com/NBPub/AutoArcher#webdrivers-selenium).
+6. Navigate to folder in terminal, install dependencies (first time only), and run script.
+
+```
+cd choice directory
+poetry install
+poetry run autoarcher.py
+```
+6. Program outputs are output to terminal window.
 
 ## Usage
-
-### Installation
-To be added. Install in venv / poetry.
 
 ### .env File
 Certain parameters are sent to the code via a file called ".env", located in the same directory. An example is provided ["example.env"](https://github.com/NBPub/AutoArcher/blob/main/example.env). Simply adjust the values in the example, and then remove "example" from the file name.
