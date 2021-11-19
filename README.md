@@ -16,7 +16,7 @@ With my current settings, local Apple devices are occasionally added to the bloc
 See [Poetry Docs](https://python-poetry.org/docs/) for more details.
 
 1. Install Poetry, see above link for guidance.
-2. [Download](https://github.com/NBPub/AutoArcher/archive/refs/heads/main.zip) AutoArcher code, see green **Code** button for more options.
+2. [Download](https://github.com/NBPub/AutoArcher/archive/refs/heads/main.zip) AutoArcher code, see green **Code** button at top of page for more options.
 3. Extract contents to directory of choice. READEME.md, LICENSE, and .gitignore files are not necessary.
 4. Modify "example.env" as [described](https://github.com/NBPub/AutoArcher#env-file). Rename to ".env"
 5. Install webdrivers for Selenium. See [below](https://github.com/NBPub/AutoArcher#webdrivers-selenium).
@@ -55,3 +55,7 @@ The current example serves to:
 3. From there > Security > Settings
 4. Check if listed IPs are being blocked (Blocked DoS Host List)
 5. Delete listed IPs from blocklist, if present. If another IP is present, the script terminates.
+
+*Output if no IPs are being blocked*
+
+![Home](/output_example.png "Output")
