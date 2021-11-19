@@ -23,7 +23,7 @@ See [Poetry Docs](https://python-poetry.org/docs/) for more details.
 6. Navigate to folder in terminal, install dependencies (first time only), and run script.
 
 ```
-cd choice directory
+cd choice-directory
 poetry install
 poetry run autoarcher.py
 ```
