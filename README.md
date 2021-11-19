@@ -1,5 +1,5 @@
 # AutoArcher
-Python-Selenium example(s) to work with Archer router pages. Code can be used as a start to building one's own automated Archer process. Tested on Archer A7 aka C7 with Chromium driver.
+Python-Selenium example(s) to work with Archer router pages. Code can be used as a start to building one's own automated Archer process. Tested on Archer A7/C7 with Chromium driver.
 
 
 ## Personal Motivation
@@ -21,7 +21,7 @@ To be added. Install in venv / poetry.
 Certain parameters are sent to the code via a file called ".env", located in the same directory. An example is provided ["example.env"](https://github.com/NBPub/AutoArcher/blob/main/example.env). Simply adjust the values in the example, and then remove "example" from the file name.
 
 ### Webdrivers, Selenium
-This example uses Chromium drivers and has been tested on Windows 10, OS X, and Debian. See section 1.5 of the [Selenium Installation Docs](https://selenium-python.readthedocs.io/installation.html) for more information on downloading and installing broswer drivers. 
+This example uses [Chromium drivers](https://sites.google.com/chromium.org/driver/) and has been tested on Windows 10, OS X, and Debian. See section 1.5 of the [Selenium Installation Docs](https://selenium-python.readthedocs.io/installation.html) for more information on downloading and installing broswer drivers. 
 
 If another driver is used, minor adjustments would be required in the code. I could allow a setting in the ENV file to allow for browser agnosticism.
 
