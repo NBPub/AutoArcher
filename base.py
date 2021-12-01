@@ -102,7 +102,7 @@ def unblockIP(driver):
             sleep(1)        
                 
             # Hit delete button
-            elem4 = driver.find_element(By.CLASS, 'btn-delete')
+            elem4 = driver.find_element(By.CLASS_NAME, 'btn-delete')
             elem4.click()
             del elem4
             sleep(2)
